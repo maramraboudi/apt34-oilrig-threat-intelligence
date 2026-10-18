@@ -1,5 +1,8 @@
-# 12 Operational Timeline 2014–2026
+# Chapter IV - Timeline of activities
 
+### Report page 22
+
+CHAPTER IV Timeline of Activities
 12 Operational Timeline 2014–2026
 Four eras, one mission: strategic intelligence and durable access.
 Figure 6:Selected milestones in the public history of APT34 / OilRig. Red markers are the 2017 exploit wave
@@ -33,10 +36,11 @@ Milestone: Juicy Mix
 Intelligence significance: Mango and renewed compromise of Israeli organizations
 •Period: 2022–2023
 Milestone: Cloud-service C2
-Academic Year 2026/2027 | 22
 
---- PAGE 23 ---
-CTI REPORTAPT34 / OILRIG
+![Figure 06: Selected public-history milestones for APT34/OilRig.](../figures/figure-06-operational-timeline.png)
+
+### Report page 23
+
 Intelligence significance: SC5k, ODAgent , OilCheck and OilBooster use Microsoft cloud
 APIs
 •Period: 2023
@@ -77,10 +81,37 @@ PowerShell backdoor using Exchange email, in a UAE government organization. MITR
 July 2026, and ESET’s reporting also covers BladedFeline , Lyceum and exploitation of CVE-2024-30088.
 SIGNATURE: Legitimate enterprise and cloud platforms as C2 and exfiltration channels.
 Reading the timeline
-Academic Year 2026/2027 | 23
 
---- PAGE 24 ---
-CTI REPORTAPT34 / OILRIG
+### Report page 24
+
 Across 12 years the mission is stable and only the tradecraft moves: Office documents and
 scripts→compromised websites and credential theft→Exchange-based C2→legitimate cloud
 services. The steady aim is to reduce detection while preserving the same collection workflow.
+13 Evolution of APT34 Tradecraft
+OilRig’s evolution is less about becoming dramatically more sophisticated than about becoming harder
+to tell apart from normal enterprise activity.
+•Area: Initial access
+Earlier: Spearphishing and malicious Office documents
+Later: Exploitation, recruitment lures, stolen credentials, abuse of trusted infrastructure
+•Area: Malware
+Earlier: Script-heavy implants (Helminth, POWRUNER)
+Later: Purpose-built .NET backdoors (Solar, Mango), then lightweight cloud-service down-
+loaders
+•Area: Persistence
+Earlier: Scheduled tasks and registry mechanisms
+Later: Remote services, web shells, compromised websites and identity-based access
+•Area: Credential theft
+Earlier: Traditional dumping and keylogging
+Later: Specialized theft of browser cookies/history, browser passwords and Credential Manager
+data
+•Area: C2
+Earlier: Attacker-controlled HTTP/DNS
+Later: Compromised sites, Exchange, Microsoft Graph, OneDrive, EWS
+•Area: Operational security
+Earlier: Infrastructure rotation
+Later: Obfuscated malware, compromised services, delivery chains adapted after public expo-
+sure
+13.1 Cloud adoption and emerging trends
+Cloud services became operational infrastructure for the actor, not merely victim resources. The
+clearest trend is deeper integration with identity and SaaS ecosystems: malicious automation oper-
+ating through valid accounts, trusted APIs and ordinary enterprise services will stay hard to detect.

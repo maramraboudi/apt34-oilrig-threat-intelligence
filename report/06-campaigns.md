@@ -1,5 +1,8 @@
-# 14 Campaign Cards
+# Chapter V - Campaigns
 
+### Report page 25
+
+CHAPTER V Campaigns Conducted
 14 Campaign Cards
 Across campaigns the malware changes faster than the mission.
 OilRig’s campaigns show a steady shift from conventional spearphishing and custom scripts toward
@@ -32,10 +35,9 @@ and infection procedures, and linked Karkoff to DNSpionage with high confidence
 14.4 HardPass
 HardPass 2019
 TARGETS: Energy and utilities, government, oil and gas
-Academic Year 2026/2027 | 25
 
---- PAGE 26 ---
-CTI REPORTAPT34 / OILRIG
+### Report page 26
+
 INITIAL ACCESS: LinkedIn and recruitment-themed conversations (including impersonation of a Cam-
 bridge University contact) to build trust before delivering malicious files
 TOOLING: New malware families and credential-stealing capabilities
@@ -67,10 +69,9 @@ TARGETS: A UAE government organization (ESET, May 2023)
 TOOLING: PowerExchange , a PowerShell backdoor
 C2: Microsoft Exchange and email messages carry commands and stolen data
 WHY IT MATTERS: C2 hidden inside normal enterprise messaging workflows
-Academic Year 2026/2027 | 26
 
---- PAGE 27 ---
-CTI REPORTAPT34 / OILRIG
+### Report page 27
+
 14.9 Israeli operations as a pattern
 Recurring Israeli Operations 2021 onward
 TARGETS: Government, healthcare, manufacturing, local government and other strategic entities
@@ -83,3 +84,43 @@ Recent Activity and Related Clusters 2024–2026
 ACTIVITY: MITRE’s current G0049 record includes exploitation of CVE-2024-30088; ESET reported
 BladedFeline in 2025 and assessed likely ties to OilRig
 CAUTION: Treat these relationships as assessed, not as automatic identity
+15 Cross-Campaign Comparison
+•Campaign: Middle East banking (2016)
+Initial access: Spearphishing , Office macros
+C2: Dedicated infrastructure
+Intelligence value: Financial intelligence
+•Campaign: POWRUNER / BONDUPDATER (2017)
+Initial access: Spearphishing , exploits
+C2: HTTP / DGA
+Intelligence value: PowerShell and resilient C2
+•Campaign: DNSpionage / Karkoff (2018–19)
+Initial access: Spearphishing , fake job sites
+C2: DNS / HTTP
+Intelligence value: DNS abuse
+•Campaign: HardPass (2019)
+Initial access: Professional networking
+C2: Malware infrastructure
+Intelligence value: Social engineering
+•Campaign: Outer Space (2021)
+Initial access: Compromised sites
+C2: Web
+Intelligence value: Strategic Israeli targeting
+•Campaign: Juicy Mix (2022)
+Initial access: Compromised sites
+C2: Web
+Intelligence value: Credential theft
+•Campaign: Cloud downloaders (2022–23)
+Initial access: Trusted / compromised access
+C2: Graph, OneDrive
+Intelligence value: Cloud C2
+•Campaign: PowerExchange (2023)
+
+### Report page 28
+
+Initial access: Exchange / credentials
+C2: Email / Exchange
+Intelligence value: Enterprise email C2
+Pattern across campaigns
+Initial access moved from Office files toward professional-network lures and exploitation. C2
+evolved from HTTP/DNS to compromised websites, Exchange and cloud APIs. Credential theft
+and repeat access to high-value victims stayed constant.

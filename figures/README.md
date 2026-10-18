@@ -1,6 +1,6 @@
 # Report figures
 
-These 12 images are the analytical figures extracted from the original [APT34/OilRig report](../APT34-OilRig-threat-intelligence-report.pdf). The small institutional logo on the report cover is not included. Page numbers below refer to the report's printed page numbers.
+These 12 images are the analytical figures accompanying the [structured APT34/OilRig report](../report/INDEX.md). The small cover logo is not included. Page numbers below refer to the report?s printed page numbers.
 
 Each figure retains its report caption and has descriptive alt text. Captions and interpretations follow the report; the visuals are not independent evidence of attribution.
 

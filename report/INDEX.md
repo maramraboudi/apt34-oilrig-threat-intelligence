@@ -1,78 +1,15 @@
-# Report files
+# Report contents
 
-- 01-1-executive-summary-8.md
-- 02-chapter-i-profile-of-the-malicious-actor-9.md
-- 03-2-identity-and-known-aliases-9.md
-- 04-3-attribution-assessment-10.md
-- 05-4-subgroups-and-related-actors-12.md
-- 06-chapter-ii-main-objective-and-motivation-14.md
-- 07-5-motivation-and-strategic-objectives-14.md
-- 08-6-geopolitical-context-and-intelligence-requirements-15.md
-- 09-7-targeting-and-victimology-16.md
-- 10-chapter-iii-known-operations-18.md
-- 11-8-attack-lifecycle-and-intrusion-analysis-18.md
-- 12-9-initial-access-and-social-engineering-19.md
-- 13-10-credential-access-and-identity-operations-20.md
-- 14-11-infrastructure-and-command-and-control-20.md
-- 15-chapter-iv-timeline-of-activities-22.md
-- 16-12-operational-timeline-20142026-22.md
-- 17-13-evolution-of-apt34-tradecraft-24.md
-- 18-chapter-v-campaigns-conducted-25.md
-- 19-14-campaign-cards-25.md
-- 20-15-cross-campaign-comparison-27.md
-- 21-chapter-vi-toolkit-of-the-malicious-actor-29.md
-- 22-16-malware-and-tooling-ecosystem-29.md
-- 23-17-credential-stealing-tools-and-code-reuse-31.md
-- 24-18-mitre-attck-mapping-32.md
-- 25-chapter-vii-detection-risk-and-defense-35.md
-- 26-19-cti-analyst-analysis-of-apt34s-juicy-mix-campaign-35.md
-- 27-20-indicators-of-compromise-40.md
-- 28-21-detection-and-hunting-opportunities-42.md
-- 29-22-threat-intelligence-analysis-and-correlation-43.md
-- 30-23-risk-and-threat-assessment-45.md
-- 31-24-defensive-recommendations-45.md
-- 32-25-future-outlook-46.md
-- 33-1-simplified-oilrig-attack-lifecycle-8.md
-- 34-2-naming-landscape-around-g0049-9.md
-- 35-3-confidence-levels-for-reported-and-assessed-relationships-12.md
-- 36-4-end-to-end-oilrig-attack-chain-18.md
-- 37-5-evolution-of-oilrig-command-and-control-approaches-21.md
-- 38-6-selected-milestones-in-the-public-history-of-apt34oilrig-22.md
-- 39-7-analytical-evolution-of-oilrig-tooling-29.md
-- 40-8-mitre-attck-enterprise-matrix-version-17-33.md
-- 41-9-representative-attck-techniques-used-by-oilrig-33.md
-- 42-10-overview-of-components-used-in-oilrigs-juicy-mix-campaign-35.md
-- 43-11-string-obfuscation-function-used-by-mangos-vbs-dropper-36.md
-- 44-12-overview-of-oilrigs-outer-space-compromise-chain-39.md
-- 45-1-executive-summary.md
-- 46-chapter-i-profile-of-the-malicious-actor.md
-- 47-2-identity-and-known-aliases.md
-- 48-3-attribution-assessment.md
-- 49-4-subgroups-and-related-actors.md
-- 50-chapter-ii-main-objective-and-motivation.md
-- 51-5-motivation-and-strategic-objectives.md
-- 52-6-geopolitical-context-and-intelligence-requirements.md
-- 53-7-targeting-and-victimology.md
-- 54-chapter-iii-known-operations.md
-- 55-8-attack-lifecycle-and-intrusion-analysis.md
-- 56-9-initial-access-and-social-engineering.md
-- 57-10-credential-access-and-identity-operations.md
-- 58-11-infrastructure-and-command-and-control.md
-- 59-chapter-iv-timeline-of-activities.md
-- 60-12-operational-timeline-20142026.md
-- 61-13-evolution-of-apt34-tradecraft.md
-- 62-chapter-v-campaigns-conducted.md
-- 63-14-campaign-cards.md
-- 64-15-cross-campaign-comparison.md
-- 65-chapter-vi-toolkit-of-the-malicious-actor.md
-- 66-16-malware-and-tooling-ecosystem.md
-- 67-17-credential-stealing-tools-and-code-reuse.md
-- 68-18-mitre-attck-mapping.md
-- 69-chapter-vii-detection-risk-and-defense.md
-- 70-19-cti-analyst-analysis-of-apt34s-juicy-mix-campaign.md
-- 71-20-indicators-of-compromise.md
-- 72-21-detection-and-hunting-opportunities.md
-- 73-22-threat-intelligence-analysis-and-correlation.md
-- 74-23-risk-and-threat-assessment.md
-- 75-24-defensive-recommendations.md
-- 76-25-future-outlook.md
+The report is transcribed into Markdown in its original section order. Page labels refer to the report's printed page numbers. Extracted report figures are available in the [figure index](../figures/README.md).
+
+- [Contents and list of figures](./00-front-matter.md) (pages 2-6)
+- [Introduction and executive summary](./01-introduction-and-executive-summary.md) (pages 7-8)
+- [Chapter I - Profile of the actor](./02-actor-profile.md) (pages 9-13)
+- [Chapter II - Objectives and targeting](./03-objectives-and-targeting.md) (pages 14-17)
+- [Chapter III - Operations and intrusion analysis](./04-operations-and-intrusion-analysis.md) (pages 18-21)
+- [Chapter IV - Timeline of activities](./05-operational-timeline.md) (pages 22-24)
+- [Chapter V - Campaigns](./06-campaigns.md) (pages 25-28)
+- [Chapter VI - Tooling and ATT&CK mapping](./07-tooling-and-attck.md) (pages 29-34)
+- [Chapter VII - Detection, risk, and defense](./08-detection-risk-and-defense.md) (pages 35-47)
+- [References and intelligence sources](./09-references.md) (pages 48-48)
+- [Appendix A - Acronyms and terminology](./10-acronyms-and-terminology.md) (pages 49-49)

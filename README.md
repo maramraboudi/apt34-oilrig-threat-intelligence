@@ -1,16 +1,15 @@
 # APT34 / OilRig: Threat Intelligence
 
-An academic, source-led study of APT34 (OilRig), a suspected Iranian cyber-espionage group tracked by MITRE ATT&CK as [G0049](https://attack.mitre.org/groups/G0049/). The repository brings together the original report, its figures, an analytical overview, and notes on sources and methodology.
+A source-led study of APT34 (OilRig), a suspected Iranian cyber-espionage group tracked by MITRE ATT&CK as [G0049](https://attack.mitre.org/groups/G0049/). This repository brings together the report in structured Markdown files, its figures, an analytical overview, and notes on sources and methodology.
 
 > **Scope:** Educational and defensive research. This repository is not an IOC feed and does not provide operational instructions.
 
 ## Start here
 
-- [Analytical overview](overview.md) — key findings, confidence distinctions, and defender takeaways.
-- [Sources and methodology](sources-and-methodology.md) — source tiers, scope, currency, and limitations.
-- [Figure index](figures/README.md) — all 12 report figures, with captions and descriptive alt text.
-- [Original academic report (PDF)](APT34-OilRig-threat-intelligence-report.pdf)
-- [How to cite this work](CITATION.cff)
+- [Analytical overview](overview.md) - key findings, confidence distinctions, and defender takeaways.
+- [Sources and methodology](sources-and-methodology.md) - source tiers, scope, currency, and limitations.
+- [Structured report](report/INDEX.md) - the report organized by section.
+- [Figure index](figures/README.md) - all 12 report figures, with captions and descriptive alt text.
 
 ## At a glance
 
@@ -33,20 +32,13 @@ Attribution and campaign linkage are assessments, not certainties. Confidence be
 
 These are general defensive priorities drawn from the report, not a claim that any one behavior uniquely identifies OilRig.
 
-## Repository contents
+## Repository layout
 
-```text
-.
-├── APT34-OilRig-threat-intelligence-report.pdf
-├── CITATION.cff
-├── README.md
-├── figures/
-│   ├── README.md
-│   └── figure-*.png
-├── overview.md
-└── sources-and-methodology.md
-```
+- `report/` - front matter, introduction, chapters, references, appendix, and report index.
+- `figures/` - extracted analytical figures and their index.
+- `overview.md` - concise analysis and defensive takeaways.
+- `sources-and-methodology.md` - sourcing, currency, limitations, and rights.
 
-## Attribution and reuse
+## Rights and reuse
 
-The report and extracted figures remain attributable to their authors, and cited material remains subject to its respective rights holders. Their presence in this public repository does not grant a reuse license. See the [methodology and rights note](sources-and-methodology.md#rights-and-attribution).
+Report text and figures remain subject to their respective rights holders. Cited third-party material retains the terms set by its publisher. Public availability here does not grant a reuse license; see the [rights note](sources-and-methodology.md#rights-and-reuse).
