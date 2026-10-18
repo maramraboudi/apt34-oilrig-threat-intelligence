@@ -2,8 +2,6 @@
 
 An academic, source-led study of APT34 (OilRig), a suspected Iranian cyber-espionage group tracked by MITRE ATT&CK as [G0049](https://attack.mitre.org/groups/G0049/). The repository brings together the original report, its figures, an analytical overview, and notes on sources and methodology.
 
-The report was prepared by **Wejden Cherif and Maram Raboudi** at **TEK-UP** for the **2026/2027 academic year**. It is intended for security students, threat-intelligence practitioners, and defenders seeking context for public reporting on OilRig.
-
 > **Scope:** Educational and defensive research. This repository is not an IOC feed and does not provide operational instructions.
 
 ## Start here

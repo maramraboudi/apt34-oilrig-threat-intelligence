@@ -35,5 +35,3 @@ The original report's reference list contains additional vendor research and cam
 Public reporting is incomplete and may use different naming conventions, confidence standards, and visibility windows. Some actor and campaign links remain contested or provisional. The report summarizes a selection of published material; it is not an exhaustive account of Iranian cyber activity, nor a guarantee that every mapped behavior is current. No new IOCs are asserted by this repository.
 
 ## Rights and attribution
-
-The report was prepared by **Wejden Cherif and Maram Raboudi**, **TEK-UP**, for the **2026/2027 academic year**. The report PDF and extracted figures are preserved with their academic provenance; the figures are reproduced from the authors' report and are not claimed as original assets of this repository. Referenced research, trademarks, and other third-party material remain subject to their respective rights holders. Public availability here does not grant a license to reuse the report, figures, or cited material.
