@@ -1,6 +1,6 @@
 # APT34 / OilRig: Threat Intelligence
 
-A source-led study of APT34 (OilRig), a suspected Iranian cyber-espionage group tracked by MITRE ATT&CK as [G0049](https://attack.mitre.org/groups/G0049/). This repository brings together the report in structured Markdown files, its figures, an analytical overview, and notes on sources and methodology.
+Public-source threat intelligence on APT34 (OilRig), the Iranian-linked cyber-espionage group tracked by MITRE ATT&CK as [G0049](https://attack.mitre.org/groups/G0049/). Explore campaign reporting, ATT&CK technique mappings, extracted figures, and practical guidance for detection, threat hunting, and defense.
 
 > **Scope:** Educational and defensive research. This repository is not an IOC feed and does not provide operational instructions.
 
@@ -32,13 +32,20 @@ Attribution and campaign linkage are assessments, not certainties. Confidence be
 
 These are general defensive priorities drawn from the report, not a claim that any one behavior uniquely identifies OilRig.
 
+If this research is useful, [star the repository](https://github.com/maramraboudi/apt34-oilrig-threat-intelligence/stargazers) to help other defenders and researchers find it.
+
 ## Repository layout
 
 - `report/` - front matter, introduction, chapters, references, appendix, and report index.
 - `figures/` - extracted analytical figures and their index.
 - `overview.md` - concise analysis and defensive takeaways.
 - `sources-and-methodology.md` - sourcing, currency, limitations, and rights.
+- `CONTRIBUTING.md` - how to suggest sourced corrections and improvements.
+
+## Contributing
+
+Corrections and well-sourced additions are welcome. Please include the original source, publication date, and the specific claim or section affected. See [CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue or pull request.
 
 ## Rights and reuse
 
-Report text and figures remain subject to their respective rights holders. Cited third-party material retains the terms set by its publisher. Public availability here does not grant a reuse license; see the [rights note](sources-and-methodology.md#rights-and-reuse).
+No blanket reuse license is granted for this repository. Report text and figures remain subject to their respective rights holders; cited material remains subject to its publisher's terms. See the [rights note](sources-and-methodology.md#rights-and-reuse).
